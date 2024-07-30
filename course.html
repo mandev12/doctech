@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body style="background-image: url('background.jpeg'); background-size: cover;">
+                    <body style="background-image: url('background.jpeg'); background-repeat: no-repeat;">
+                    <body style="background-image: url('background.jpeg'); background-position: right top;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="sheader">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="#"></a>
+            <div class="navlink" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Course.html">Services</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Our services</h1>
+    </section>
+    <!-- -----Services----- -->
+        <section class="Services">
+            <h1>Services We offer</h1>
+    
+            <div class="row">
+                <div class="cc">
+                    <h3 style="color:black; font-family:times new roman;">Equipment supply</h3>
+                    <p style="color:black; font-family:times new roman;">We offer a comprehensive range of biomedical equipment, including diagnostic devices, treatment machines, and patient monitoring systems. Our products are sourced from leading manufacturers to ensure reliability and performance</p>
+                </div>
+                <div class="cc">
+                    <h3 style="color:black; font-family:times new roman;">repair services</h3>
+                    <p style="color:black; font-family:times new roman;">Our team of skilled technicians provides prompt and reliable repair services for all types of biomedical equipment. We understand the critical role that medical devices play in patient care, and we are committed to minimizing downtime and ensuring optimal functionality..</p>
+                </div>
+                <div class="cc">
+                    <h3 style="color:black; font-family:times new roman;">Maintenance contract</h3>
+                    <p style="color:black; font-family:times new roman;">Our team of skilled technicians provides prompt and reliable repair services for all types of biomedical equipment. We understand the critical role that medical devices play in patient care, and we are committed to minimizing downtime and ensuring optimal functionality</p>
+                </div>
+            </div>
+        </section>
+
+                   
+    <section class="footer">
+        <h4>About Us</h4>
+        <p style="color:white; font-family:times new roman;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex deserunt ea beatae nulla accusamus ipsum delectus <br>aut non, deleniti numquam incidunt animi aliquam officia! Fugiat quod voluptate impedit dolor accusamus.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p class="foot">&copy; Mandev kc</p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu()
+        {
+            navlinks.style.right = '0';
+        }
+        function hidemenu()
+        {
+            navlinks.style.right = '-200px';
+        }
+    </script>
+</body>
+</html>

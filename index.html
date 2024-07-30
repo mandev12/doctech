@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: times new roman;">DocTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.jpg" alt="#"></a>
+            <div class="navlink" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Service.html">Services</a></li>
+                  
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1 style="font-family: times new roman;">Quality Biomedical Equipment Solutions</h1>
+            <p style="font-family: times new roman;">Welcome to Doctech, your trusted partner in biomedical equipment supply and repair. Our mission is to support healthcare providers with top-quality equipment and exceptional services to improve patient care and operational efficiency,Ensuring Healthcare Providers Have Access to the Best Medical Equipments</p>
+
+            <a href="#" class="btn">Visit Us To know More</a>
+        </div>
+    </section>
+
+
+    <!-- -----facilities----- -->
+    <section class="f">
+        <h1 style="color:white; font-family:times new roman;">Our services</h1>
+
+        <div class="row">
+            <div class="fc">
+                <img src="sale.jpeg" alt="">
+                <h3 style="color:white; font-family:times new roman;">Equipment supply</h3>
+                <p style="color:white; font-family:times new roman;">We offer a comprehensive range of biomedical equipment, including diagnostic devices, treatment machines, and patient monitoring systems. Our products are sourced from leading manufacturers to ensure reliability and performance</p>
+            </div>
+            <div class="fc">
+                <img src="repair1.png" alt="">
+                <h3 style="color:white; font-family:times new roman;">Repair services</h3>
+                <p style="color:white; font-family:times new roman;">Our team of skilled technicians provides prompt and reliable repair services for all types of biomedical equipment. We understand the critical role that medical devices play in patient care, and we are committed to minimizing downtime and ensuring optimal functionality..</p>
+            </div>
+            <div class="fc">
+                <img src="contract.jpeg" alt="">
+                <h3 style="color:white; font-family:times new roman;">Maintenance contract</h3>
+                <p style="color:white; font-family:times new roman;">Our team of skilled technicians provides prompt and reliable repair services for all types of biomedical equipment. We understand the critical role that medical devices play in patient care, and we are committed to minimizing downtime and ensuring optimal functionality.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- -----testimonials----- -->
+    <section class="tm">
+        <h1 style="color:green; font-family:times new roman;">What our happy costumers Says</h1>
+        <p style="color:white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, quidem.</p>
+        <div class="row">
+            <div class="tmc">
+                <img src="kiran.jpg" alt="">
+                <div>
+                    <body style="background-color:black;">
+                    <p style="color:green; font-family:times new roman;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus mollitia incidunt doloremque quas quibusdam deleniti delectus nemo quam ullam explicabo praesentium consectetur eligendi, esse consequatur architecto laborum recusandae amet!</p>
+                    </body>
+                    <h3>Kiran chaudhary</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="tmc">
+                <img src="dhiraj.jpg" alt="">
+                <div>
+                    <p style="color:green; font-family:times new roman;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur temporibus mollitia incidunt doloremque quas quibusdam deleniti delectus nemo quam ullam explicabo praesentium consectetur eligendi, esse consequatur architecto laborum recusandae amet!</p>
+                    <h3>Dhiraj pachhai</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------call to action------ -->
+
+    <section class="cta">
+        <i style="color:white; font-family:times new roman;">We're here to assist you with all your biomedical equipment needs. <br>If you want to know more or need our services, please don't hesitate to</i>
+        <a href="" class="btn">Contact Us</a>
+    </section>
+
+    <section class="footer">
+        <h4 style="color:white; font-family:times new roman;">About Us</h4>
+        <p style="color:white; font-family:times new roman;">Welcome to Doctech, Your Trusted Partner in Biomedical Equipment Supply and Repair
+At Doctech, we specialize in providing top-quality biomedical equipment and expert repair services to healthcare providers. Our mission is to ensure that medical facilities have access to the best tools and technology, enabling them to deliver superior patient care and maintain efficient operations.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p class="foot">&copy; Mandev kc</p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu()
+        {
+            navlinks.style.right = '0';
+        }
+        function hidemenu()
+        {
+            navlinks.style.right = '-200px';
+        }
+    </script>
+</body>
+</html>

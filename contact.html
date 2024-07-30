@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DocTech</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sheader">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+        <div class="navlink" id="navlinks">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- -----contact us ----- -->
+    <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.424296613162!2d85.30889990601807!3d27.690842904946003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1722359841206!5m2!1sen!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contus">
+      <div class="row">
+        <div class="ccol">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>gusinghal Road </h5>
+              <p>kupondole , lalitpur</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>9849253966</h5>
+              <p>Monday To Friday , 10AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>info@mandevkc.com.np</h5>
+              <p>Email us</p>
+            </span>
+          </div>
+        </div>
+        
+    </section>
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>" Welcome to Doctech, Your Trusted Partner in Biomedical Equipment Supply and Repair At Doctech, we specialize in providing top-quality biomedical equipment and expert repair services to healthcare providers. Our mission is to ensure that medical facilities have access to the best tools and technology, enabling them to deliver superior patient care and maintain efficient operations.
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p class="foot">&copy; Mandev kc</p>
+    </section>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
